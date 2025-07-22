@@ -1,1 +1,1 @@
-# rocket-simple-api
+# Rust + PostgreSQL Docker Configuration
