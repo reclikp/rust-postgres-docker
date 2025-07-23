@@ -21,6 +21,6 @@ services:
     ports:
       - "5432:5432"
     volumes:
-      - ./database/:var/lib/postgresql/:delegated
+      - ./database/:/var/lib/postgresql/:delegated
     env_file:
       - ".env"
